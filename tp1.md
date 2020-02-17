@@ -93,21 +93,21 @@ mkdir Dossier2/ + cd Dossier2/ + mkdir Dossier2.1 + cd .. + mkdir Dossier2.2 + c
     nom complet ; ce champ peut contenir de nombreuses informations, il correspond à un champ de remarque,
     répertoire de base de l'utilisateur,
     programme à lancer au démarrage (programme de base), généralement un interpréteur de commande (shell). La durée de vie de ce processus correspond à celle de la session utilisateur, c'est à dire que la session de l'utilisateur se terminera avec le processus. Il est possible de préciser ici tout type de programme, ce qui permet de limiter le champ d'action d'un utilisateur (en le connectant directement au programme qu'il doit utiliser, par exemple).**  
-17.*Aﬀichez seulement la première colonne triée par ordre alphabétique inverse*  
-**Tout d'abord on copie la première colonne dans un fichier avec la commande : cut -c1 /etc/passwd > caca.txt puis on trie le fichier avec la commande sort -r caca.txt**
-18.*Quelle commande nous donne le nombre d’utilisateurs ayant un compte sur cette machine (pas seule-ment les utilisateurs connectés)?*
-**wc -l /etc/passwd**
-19.*Combien de pages de manuel comportent le mot-cléconversiondans leur description?*
-**man -k conversion | wc -1**
-20.*A l’aide de la commandefind, recherchez tous les fichiers se nommantpasswdprésents sur la machine*
-**find -name passwd**
-21.*Modifiez la commande précédente pour que la liste des fichiers trouvés soit enregistrée dans le fichier~/list_passwd_files.txtet que les erreurs soient redirigées vers le fichier spécial /dev/null*
-**find -name passwd > list_passwd_files.txt 2> /dev/null**
-22.*Dans votre dossier personnel, utilisez la commande grep pour chercher où est défini l’alias ll vuprécédemment*
-**grep 'alias ll'**
-23.*Utilisez la commande locate pour trouver le fichier history.log.*
-24.*Créer un fichier dans votre dossier personnel puis utilisez locate pour le trouver. Apparaît-il? Pourquoi?*
-**Non il n'apparait pas car la base de donnée n'a pas "mise à jour"** 
+17.*Aﬀichez seulement la première colonne triée par ordre alphabétique inverse*   
+**Tout d'abord on copie la première colonne dans un fichier avec la commande : cut -c1 /etc/passwd > caca.txt puis on trie le fichier avec la commande sort -r caca.txt**  
+18.*Quelle commande nous donne le nombre d’utilisateurs ayant un compte sur cette machine (pas seule-ment les utilisateurs connectés)?*  
+**wc -l /etc/passwd**  
+19.*Combien de pages de manuel comportent le mot-cléconversiondans leur description?*  
+**man -k conversion | wc -1**  
+20.*A l’aide de la commandefind, recherchez tous les fichiers se nommantpasswdprésents sur la machine*  
+**find -name passwd**  
+21.*Modifiez la commande précédente pour que la liste des fichiers trouvés soit enregistrée dans le fichier~/list_passwd_files.txtet que les erreurs soient redirigées vers le fichier spécial /dev/null*  
+**find -name passwd > list_passwd_files.txt 2> /dev/null**  
+22.*Dans votre dossier personnel, utilisez la commande grep pour chercher où est défini l’alias ll vuprécédemment*  
+**grep 'alias ll'**  
+23.*Utilisez la commande locate pour trouver le fichier history.log.*  
+24.*Créer un fichier dans votre dossier personnel puis utilisez locate pour le trouver. Apparaît-il? Pourquoi?*  
+**Non il n'apparait pas car la base de donnée n'a pas "mise à jour"**   
 
 
 
