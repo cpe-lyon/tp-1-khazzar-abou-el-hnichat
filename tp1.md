@@ -78,7 +78,20 @@ mkdir Dossier2/ + cd Dossier2/ + mkdir Dossier2.1 + cd .. + mkdir Dossier2.2 + c
     répertoire de base de l'utilisateur,
     programme à lancer au démarrage (programme de base), généralement un interpréteur de commande (shell). La durée de vie de ce processus correspond à celle de la session utilisateur, c'est à dire que la session de l'utilisateur se terminera avec le processus. Il est possible de préciser ici tout type de programme, ce qui permet de limiter le champ d'action d'un utilisateur (en le connectant directement au programme qu'il doit utiliser, par exemple).**  
 17.*Aﬀichez seulement la première colonne triée par ordre alphabétique inverse*  
+**Pour trier par ordre alphabétique inverse on doit faire un sort -r**
+18.*Quelle commande nous donne le nombre d’utilisateurs ayant un compte sur cette machine (pas seule-ment les utilisateurs connectés)?*
+19.*Combien de pages de manuel comportent le mot-cléconversiondans leur description?*
+20.*A l’aide de la commandefind, recherchez tous les fichiers se nommantpasswdprésents sur la machine*
+21.*Modifiez la commande précédente pour que la liste des fichiers trouvés soit enregistrée dans le fichier~/list_passwd_files.txtet que les erreurs soient redirigées vers le fichier spécial/dev/null*
+22.*Dans votre dossier personnel, utilisez la commandegreppour chercher où est défini l’aliasllvuprécédemment*
+23.*Utilisez la commandelocatepour trouver le fichierhistory.log.*
+24.*Créer un fichier dans votre dossier personnel puis utilisez locate pour le trouver. Apparaît-il? Pourquoi?*
 
+Exercice 4
+3.*Le fichier.bashrcest lu au démarragedu shell; pour le recharger, il faudrait donc se déconnecterpuis se reconnecter; mais il existe un autre moyen : la commandesource .bashrc. Testez-la, l’invitede commande devrait immédiatement passer en couleurs.*  
+**hi**
+4.*Les couleurs par défauts (surtout celle du dossier courant) ne sont pas très visibles. Dans.bashrc,cherchez les lignes commençant parPS1=; elles indiquent la mise en forme de l’invite de commande(selon que l’on est en couleurs ou non).*  
+**jui**
 
 
 
